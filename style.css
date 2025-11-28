@@ -1,56 +1,11 @@
-#etch-a-sketch {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
-}
-
-#menu {
-  /* background-color: red; */
-  border: 1px solid black;
-  width: 100px;
-  height: 100px;
-  box-sizing: border-box;
-  width: 200px;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-}
-
-#control {
-  margin: auto;
-  margin-bottom: 15px;
-}
-
-.btn {
-  border: none;
-  width: 80px;
-  border-radius: 12px;
-  padding: 7px;
-}
-
-#apply-btn {
-  background-color: blue;
-  color: white;
-}
-
-#clear-btn {
-  background-color: rgba(0,0,0,0);
-  border: 1px solid #f3f3f3;
-}
-
-.cell {
-  border: 1px solid black;
-  height: 100px;
-  width: 100px;
+*{
+  font-family: Poppins;
+  color: #005C78;
+  letter-spacing: 5px;
   box-sizing: border-box;
 }
 
-#container {
-  display: flex;
-  box-sizing: border-box;
+.container {
+  max-width: fit-content;
 
-}
-
-h1 {
-  text-align: center;
 }
